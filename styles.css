@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.header{
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+}
+.header h1{
+    margin: 0;
+    font-size: 24px;
+}
+.content{
+    padding:20px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2{
+    font-size:20px;
+    margin-bottom:15px;
+    color:#333;
+}
+.section h3{
+    color:#444444;
+}
+.order-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom:1px solid #eee;
+}
+
+.summary-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.total{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    
+}
+
+th, td {
+    
+    padding: 8px; 
+    word-wrap: break-word; 
+    border: #ffffff solid 2px;
+}
+
+th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    text-align: center; 
+}
+
+td {
+    text-align: center; /* Default alignment */
+    background-color: #ffffff; /* Keeps data cells visually distinct */
+}
+
+.order-item td {
+    display: flex;
+    justify-content: space-between; /* Space out content within the cell */
+    align-items: center; /* Vertically align items in the middle */
+}
+
